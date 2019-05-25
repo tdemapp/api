@@ -5,8 +5,13 @@
   "author": "N U R O ™ <me@nuro.sh>",
   "license": "AGPL-3.0",
   "homepage": "https://github.com/tdemapp/api#readme",
-  "main": "lib/index.js",
+  "main": "dist/tde.js",
+  "umd:main": "dist/tde.umd.js",
+  "module": "dist/tde.mjs",
+  "source": "lib/index.js",
   "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "prettier --config .prettierrc.json --write \"./**/*.js\""
   },
@@ -25,6 +30,7 @@
     "modules"
   ],
   "devDependencies": {
+    "microbundle": "^0.11.0",
     "prettier": "^1.16.4"
   }
 }
