@@ -8,6 +8,10 @@
         "sfo1",
         "lhr1"
     ],
+    "github": {
+        "autoAlias": true,
+        "enabled": true
+    },
     "builds": [
         {
             "src": "package.json",
