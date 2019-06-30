@@ -7,7 +7,7 @@ module.exports = {
     themeConfig: {
         docsDir: 'docs',
         docsBranch: 'docs',
-        logo: '/logo.svg',
+        logo: '/Logo.svg',
         lastUpdated: 'Last Updated',
         markdown: {
             lineNumbers: true
