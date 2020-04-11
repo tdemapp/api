@@ -1,13 +1,8 @@
 {
     "version": 2,
-    "name": "docs",
+    "name": "tdem-app",
     "alias": "docs.tdem.app",
     "public": true,
-    "scope": "tdem",
-    "regions": [
-        "sfo1",
-        "lhr1"
-    ],
     "github": {
         "autoAlias": true,
         "enabled": true
