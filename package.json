@@ -2,7 +2,7 @@
 	"name": "@tdemapp/interface",
 	"version": "1.1.1",
 	"description": "Extension interface for TweetDeck",
-	"author": "N U R O ™ <me@nuro.sh>",
+	"author": "nurodev <me@nuro.dev>",
 	"license": "AGPL-3.0",
 	"homepage": "https://github.com/tdemapp/interface#readme",
 	"main": "lib/index.js",
