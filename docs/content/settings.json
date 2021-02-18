@@ -1,0 +1,10 @@
+{
+  "title": "Extension interface for TweetDeck",
+  "url": "docs.tdem.app",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "tdemapp/interface",
+  "twitter": "nurodev"
+}

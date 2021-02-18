@@ -7,9 +7,10 @@
 	"homepage": "https://github.com/tdemapp/interface#readme",
 	"main": "lib/index.js",
 	"scripts": {
-		"docs:dev": "vuepress dev docs",
-		"docs:build": "vuepress build docs",
-		"now-build": "npm run docs:build",
+		"docs:dev": "nuxt ./docs/",
+		"docs:build": "nuxt build ./docs/",
+		"docs:start": "nuxt start ./docs/",
+		"docs:generate": "nuxt generate ./docs/",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"prettier": "prettier --write \"./**/*.js\""
 	},
@@ -39,6 +40,8 @@
 		"useTabs": true
 	},
 	"devDependencies": {
+		"@nuxt/content-theme-docs": "^0.10.0",
+		"nuxt": "^2.14.12",
 		"prettier": "^1.16.4",
 		"vuepress": "^1.8.1"
 	}
