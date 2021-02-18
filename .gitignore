@@ -17,4 +17,9 @@ node_modules/
 # Output of 'npm pack'
 *.tgz
 
+# macOS
+.DS_Store
+
+# Vercel
 .now
+.vercel
