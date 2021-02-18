@@ -1,45 +1,45 @@
 {
-  "name": "@tdemapp/interface",
-  "version": "1.1.1",
-  "description": "Extension interface for TweetDeck",
-  "author": "N U R O ™ <me@nuro.sh>",
-  "license": "AGPL-3.0",
-  "homepage": "https://github.com/tdemapp/interface#readme",
-  "main": "lib/index.js",
-  "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "now-build": "npm run docs:build",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier": "prettier --config .prettierrc.json --write \"./**/*.js\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/tdemapp/interface.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tdemapp/interface/issues"
-  },
-  "keywords": [
-    "twitter",
-    "tweetdeck",
-    "extensions",
-    "specification",
-    "modules"
-  ],
-  "prettier": {
-    "arrowParens": "always",
-    "bracketSpacing": true,
-    "jsxBracketSameLine": true,
-    "printWidth": 100,
-    "semi": true,
-    "singleQuote": true,
-    "tabWidth": 4,
-    "trailingComma": "es5",
-    "useTabs": true
-  },
-  "devDependencies": {
-    "prettier": "^1.16.4",
-    "vuepress": "^1.8.1"
-  }
+	"name": "@tdemapp/interface",
+	"version": "1.1.1",
+	"description": "Extension interface for TweetDeck",
+	"author": "N U R O ™ <me@nuro.sh>",
+	"license": "AGPL-3.0",
+	"homepage": "https://github.com/tdemapp/interface#readme",
+	"main": "lib/index.js",
+	"scripts": {
+		"docs:dev": "vuepress dev docs",
+		"docs:build": "vuepress build docs",
+		"now-build": "npm run docs:build",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prettier": "prettier --config .prettierrc.json --write \"./**/*.js\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/tdemapp/interface.git"
+	},
+	"bugs": {
+		"url": "https://github.com/tdemapp/interface/issues"
+	},
+	"keywords": [
+		"twitter",
+		"tweetdeck",
+		"extensions",
+		"specification",
+		"modules"
+	],
+	"prettier": {
+		"arrowParens": "always",
+		"bracketSpacing": true,
+		"jsxBracketSameLine": true,
+		"printWidth": 100,
+		"semi": true,
+		"singleQuote": true,
+		"tabWidth": 4,
+		"trailingComma": "es5",
+		"useTabs": true
+	},
+	"devDependencies": {
+		"prettier": "^1.16.4",
+		"vuepress": "^1.8.1"
+	}
 }
